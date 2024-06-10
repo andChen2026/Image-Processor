@@ -22,8 +22,26 @@
     - 3 fields: R, G, and B
     - Each field will have a range from 0 to 255
     - mutators that allow modifications of a pixel field
-3. ImageTools.py - A class to store the operations:
+3. ImageTools.py - A class to store the low level operations:
     - Compressor
     - Decompressor
     - Converter
-4. ImageProcessor.py - A class to store the 
+4. ImageProcessor.py - A class to store the general operations:
+    - augment(): Change the dimensions of the image
+    - crop(): remove parts of the image
+    - saturate(): saturate an image by a percentage
+    - rotate(): rotate an image by a specified amount
+    - insert(): another image on top of this one
+    - cut(): cut a part of an image from another image
+    - fill(): fill parts of an image with another color
+    - reduce(): reduce the quality of an image
+    - scale(): zoom into a certain portion of an image by a percentage
+    - delete(): remove this image
+    - create(): create a new image 
+    - save(): save the image we created
+    - invert(): invert an image
+    - redo(): redo the last operation performed
+    - undo(): undo the last operation performed
+    - upload(): uploads this image to an SQL database
+5. Tester.py - A program to conduct tests on the ImageProcessor
+
