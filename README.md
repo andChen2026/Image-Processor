@@ -47,9 +47,6 @@
 5. Tester.py - A program to conduct tests on the ImageProcessor
 ### Upcoming Features (No particular order)
 - Graphical User Interface 
-- Stylus Support
 - Database connection
 - Remote Image Database
-- Collaboration between users
 - Addition of Plugins
-- Real-time drawing competitions
