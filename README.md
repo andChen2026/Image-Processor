@@ -43,5 +43,6 @@
     - redo(): redo the last operation performed
     - undo(): undo the last operation performed
     - upload(): uploads this image to an SQL database
+    - changePixel(): changes a pixel at x and y
 5. Tester.py - A program to conduct tests on the ImageProcessor
 
