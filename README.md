@@ -13,3 +13,17 @@
 5. Image processing
 6. Data Structures: Stacks, Queues
 7. Algorithms: Burrows-Wheeler 
+### Files:
+1. Image.py - A class representation of an image    
+    - Different image extensions will be represented differently via metadata
+    - A list will be used to represent the pixels making the image
+    - The length and width of the list will be stored as two fields to allow for efficient retrieval
+2. Pixel.py - A class representation of a pixel
+    - 3 fields: R, G, and B
+    - Each field will have a range from 0 to 255
+    - mutators that allow modifications of a pixel field
+3. ImageTools.py - A class to store the operations:
+    - Compressor
+    - Decompressor
+    - Converter
+4. ImageProcessor.py - A class to store the 
