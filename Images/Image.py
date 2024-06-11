@@ -8,7 +8,7 @@ class Image:
         for byte in open(fileName, "r"):
             pList.append(byte)
             if i % 3 == 0:
-                self.pixelList.insert(Pixel(pList, Position(i)))
+                self.pixelList.insert(Pixel(pList, Position(i//3)))
             i+=1
 
     def getPixelList(self) -> list:
