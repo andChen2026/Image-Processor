@@ -9,3 +9,7 @@ class Image:
             if i % 3 == 0:
                 self.pixelList.insert(Pixel(pList, Position(i)))
             i+=1
+
+    def getPixelList(self) -> list:
+        return self.pixelList
+        
