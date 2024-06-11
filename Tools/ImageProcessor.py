@@ -33,10 +33,13 @@ class ImageProcessor:
     def rotate(self, degrees: float) -> None:
         pass
 
-    def insertImage(self, Other: Image, Pos: Position) -> None: # Inserts another image at a position
+    def insert(self, Other: Image, Pos: Position) -> None: # Inserts another image at a position
         pass
 
-    def augmentImage(self, width: int, length: int) -> None: # Stretch or squish an image in any directions
+    def augment(self, width: int, length: int) -> None: # Stretch or squish an image in any directions
+        pass
+
+    def PittColors(self) -> None: # Give each Pixel a hue of Blue/Gold
         pass
 
     def crop(self, pos: Position) -> None: # Crops a certain part of the image
