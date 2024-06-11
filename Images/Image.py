@@ -10,6 +10,8 @@ class Image:
         self.width: int = 0
         self.type: str = ""
 
+        for byte in open(str, "r"):
+            pass
         # Every image has a length and width, need to do some research on those
 
     def getPixelList(self) -> list:
