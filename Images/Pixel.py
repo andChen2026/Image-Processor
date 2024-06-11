@@ -1,4 +1,5 @@
 from Images.Position import Position
+
 class Pixel:
     def __init__(self, RGBList: list, pos: Position) -> None:
         self.c = [color for color in RGBList] # create new list

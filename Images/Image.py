@@ -1,5 +1,6 @@
 from Images.Pixel import Pixel
 from Images.Position import Position
+
 class Image:
     def __init__(self, fileName: str) -> None: # Load in bytearray representing image
         self.pixelList = []; i = 0

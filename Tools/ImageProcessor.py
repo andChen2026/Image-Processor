@@ -1,5 +1,6 @@
 from Images.Image import Image
 from Images.Position import Position
+
 class ImageProcessor:
     def __init__(self, PImage: Image) -> None: # Image to be processed
         self.image = PImage 
